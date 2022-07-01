@@ -1,0 +1,54 @@
+{
+  "id": "988569d6-fdf6-4d10-9888-2dbf945145f7",
+  "uid": "esse-modi-omnis",
+  "type": "blogpost",
+  "data": {
+    "title": "redefine bricks-and-clicks e-markets",
+    "description": [
+      {
+        "type": "paragraph",
+        "text": "Nulla qui ad ipsum mollit tempor velit ullamco eiusmod nisi commodo. Enim nostrud aliquip elit magna est.",
+        "spans": []
+      }
+    ],
+    "img": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
+    },
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Labore reprehenderit esse commodo id laborum ut. Quis sint eiusmod eu enim excepteur laborum minim dolore anim proident ex dolor. Enim minim excepteur sint occaecat.",
+        "spans": []
+      }
+    ],
+    "author": [
+      {
+        "type": "paragraph",
+        "text": "Irure cillum incididunt duis tempor exercitation.",
+        "spans": []
+      }
+    ],
+    "date": "2013-03-25",
+    "category": "tactics",
+    "Categories": [
+      {
+        "Category": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        }
+      },
+      {
+        "Category": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      }
+    ]
+  }
+}
