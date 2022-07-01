@@ -1,10 +1,14 @@
 {
-  "private": true,
+  "homepage": "hhtps://Ali-Dakoumi.github.io/Next-js-medium-clone",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "slicemachine": "start-slicemachine"
+    "slicemachine": "start-slicemachine",
+    "lint": "eslint ./components/** ./pages/** -c .eslintrc.json --ext js,jsx",
+    "lint-fix": "eslint ./components/** ./pages/** -c .eslintrc.json --fix --ext js,jsx",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@prismicio/client": "^6.6.1",
@@ -24,6 +28,15 @@
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.5",
     "autoprefixer": "^10.4.7",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "postcss": "^8.4.14",
     "slice-machine-ui": "^0.3.8",
     "tailwindcss": "^3.1.2",
